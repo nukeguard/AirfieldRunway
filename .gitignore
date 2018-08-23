@@ -1,0 +1,16 @@
+# archives
+*.7z
+*.zip
+
+# logs
+*.log
+
+# model source
+*.fbx
+*.blockdef.xml
+*.hkt
+*.hkt.fbx
+*.hkt.mwm
+
+# temp
+*.tmp	
