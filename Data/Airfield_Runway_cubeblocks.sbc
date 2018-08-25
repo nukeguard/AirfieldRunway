@@ -14,6 +14,10 @@
         <string>RunwayMiddle</string>
         <string>RunwayStartAngled</string>
         <string>RunwayMiddleAngled</string>
+        <string>RunwayStartWide</string>
+        <string>RunwayMiddleWide</string>
+        <string>RunwayStartAngledWide</string>
+        <string>RunwayMiddleAngledWide</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -28,6 +32,10 @@
         <string>RunwayMiddle</string>
         <string>RunwayStartAngled</string>
         <string>RunwayMiddleAngled</string>
+        <string>RunwayStartWide</string>
+        <string>RunwayMiddleWide</string>
+        <string>RunwayStartAngledWide</string>
+        <string>RunwayMiddleAngledWide</string>
       </ItemIds>
     </Category>
   </CategoryClasses>
@@ -43,6 +51,10 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddle" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayStartAngled" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddleAngled" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayStartWide" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddleWide" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayStartAngledWide" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddleAngledWide" />
 	
   </BlueprintClassEntries>
 <!--End BlueprintClasses-->
@@ -79,7 +91,7 @@
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Corner_LCD_1_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RunwayStart_Constr1.mwm" />
       </BuildProgressModels>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -173,7 +185,7 @@
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Corner_LCD_1_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RunwayStartAngled_Constr1.mwm" />
       </BuildProgressModels>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -224,9 +236,7 @@
 		<MountPoint Side="Top" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RailStraight.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RailStraight.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RailStraight.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RunwayStraight_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>RunwayMiddleSection</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -248,6 +258,255 @@
       <Center x="21" y="0" z="37" />
 	  <GuiVisible>false</GuiVisible>
       <Model>Models\Cubes\RunwayAngled.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5000" />
+        <Component Subtype="MetalGrid" Count="13900" />
+        <Component Subtype="SteelPlate" Count="36500" />
+      </Components>
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <MountPoints>
+      </MountPoints>
+      <BuildProgressModels>
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayAngled_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>RunwayMiddleSectionAngled</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>	
+	
+	<!-- Helipad square -->
+    <Definition>
+	 <Id>	
+        <TypeId>CubeBlock</TypeId>
+		<SubtypeId>Helipad_Runway</SubtypeId>
+	 </Id>
+	<Icon>Textures\Icons\Helipad.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="11" y="1" z="11" />
+	<ModelOffset x="5" y="0" z="0" />
+	<Model>Models\Cubes\Helipad.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2500" />
+        <Component Subtype="MetalGrid" Count="7500" />
+        <Component Subtype="SteelPlate" Count="13500" />
+      </Components>
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Helipad_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.02" StartY="0.00" EndX="10.98" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.02" StartY="0.00" EndX="10.98" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.01" StartY="0.00" EndX="10.99" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.01" StartY="0.00" EndX="10.99" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.02" StartY="0.01" EndX="10.98" EndY="10.99" />
+		<MountPoint Side="Top" StartX="0.02" StartY="0.01" EndX="10.98" EndY="10.99" />
+	</MountPoints>
+	<BlockPairName>Helipad</BlockPairName>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+</Definition>
+	
+	
+<!-- Wide runways -->
+
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>RunwayStartWide</SubtypeId>
+      </Id>
+      <DisplayName>Runway Start End Wide</DisplayName>
+      <Icon>Textures\Icons\RunwayEnd.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="11" y="1" z="20" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="10" y="0" z="19" />
+      <Model>Models\Cubes\RunwayStartWide.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5000" />
+        <Component Subtype="MetalGrid" Count="11000" />
+        <Component Subtype="SteelPlate" Count="27000" />
+      </Components>
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
+		<MountPoint Side="Top" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RunwayStartWide.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>	  
+      <BlockPairName>RunwayStartSectionWide</BlockPairName>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+	   <BlockVariants>
+        <BlockVariant>
+          <TypeId>TextPanel</TypeId>
+          <SubtypeId>RunwayStartAngledWide</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>RunwayMiddleWide</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
+          <SubtypeId>RunwayMiddleAngledWide</SubtypeId>
+        </BlockVariant>
+	   </BlockVariants>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>RunwayStartAngledWide</SubtypeId>
+      </Id>
+      <DisplayName>Runway Angled Wide Start End </DisplayName>
+      <Icon>Textures\Icons\RunwayAngledEnd.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Center x="21" y="0" z="0" />
+	<Size x="22" y="1" z="30" />
+	<ModelOffset x="0" y="0" z="0" />
+	<GuiVisible>false</GuiVisible>
+	<Model>Models\Cubes\RunwayStartAngledWide.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5000" />
+        <Component Subtype="MetalGrid" Count="11750" />
+        <Component Subtype="SteelPlate" Count="30250" />
+      </Components>
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Right" StartX="14.02" StartY="0.00" EndX="29.96" EndY="1.00" Default="true" />
+		<MountPoint Side="Top" StartX="14.04" StartY="14.02" EndX="22.00" EndY="21.98" />
+		<MountPoint Side="Top" StartX="6.03" StartY="6.02" EndX="13.99" EndY="13.98" />
+		<MountPoint Side="Top" StartX="10.07" StartY="14.59" EndX="13.42" EndY="17.95" />
+		<MountPoint Side="Top" StartX="14.57" StartY="10.03" EndX="17.92" EndY="13.39" />
+		<MountPoint Side="Top" StartX="1.98" StartY="6.55" EndX="5.34" EndY="9.91" />
+		<MountPoint Side="Top" StartX="6.49" StartY="1.99" EndX="9.84" EndY="5.35" />
+		<MountPoint Side="Top" StartX="18.27" StartY="22.58" EndX="21.63" EndY="25.94" />
+		<MountPoint Side="Top" StartX="20.13" StartY="26.31" EndX="21.78" EndY="27.96" />
+		<MountPoint Side="Top" StartX="16.24" StartY="22.37" EndX="17.90" EndY="24.02" />
+		<MountPoint Side="Top" StartX="12.15" StartY="18.43" EndX="13.81" EndY="20.08" />
+		<MountPoint Side="Top" StartX="7.97" StartY="14.28" EndX="9.63" EndY="15.94" />
+		<MountPoint Side="Top" StartX="4.03" StartY="10.26" EndX="5.69" EndY="11.92" />
+		<MountPoint Side="Top" StartX="3.34" StartY="4.78" EndX="5.00" EndY="6.44" />
+		<MountPoint Side="Top" StartX="4.80" StartY="3.12" EndX="6.46" EndY="4.77" />
+		<MountPoint Side="Top" StartX="10.25" StartY="4.05" EndX="11.91" EndY="5.71" />
+		<MountPoint Side="Top" StartX="14.32" StartY="8.05" EndX="15.98" EndY="9.71" />
+		<MountPoint Side="Top" StartX="18.18" StartY="12.06" EndX="19.83" EndY="13.72" />
+		<MountPoint Side="Bottom" StartX="14.04" StartY="8.02" EndX="22.00" EndY="15.98" />
+		<MountPoint Side="Bottom" StartX="6.03" StartY="16.02" EndX="13.99" EndY="23.98" />
+		<MountPoint Side="Bottom" StartX="10.07" StartY="12.05" EndX="13.42" EndY="15.41" />
+		<MountPoint Side="Bottom" StartX="14.57" StartY="16.61" EndX="17.92" EndY="19.97" />
+		<MountPoint Side="Bottom" StartX="1.98" StartY="20.09" EndX="5.34" EndY="23.45" />
+		<MountPoint Side="Bottom" StartX="6.49" StartY="24.65" EndX="9.84" EndY="28.01" />
+		<MountPoint Side="Bottom" StartX="18.27" StartY="4.06" EndX="21.63" EndY="7.42" />
+		<MountPoint Side="Bottom" StartX="20.13" StartY="2.04" EndX="21.78" EndY="3.69" />
+		<MountPoint Side="Bottom" StartX="16.24" StartY="5.98" EndX="17.90" EndY="7.63" />
+		<MountPoint Side="Bottom" StartX="12.15" StartY="9.92" EndX="13.81" EndY="11.57" />
+		<MountPoint Side="Bottom" StartX="7.97" StartY="14.06" EndX="9.63" EndY="15.72" />
+		<MountPoint Side="Bottom" StartX="4.03" StartY="18.08" EndX="5.69" EndY="19.74" />
+		<MountPoint Side="Bottom" StartX="3.34" StartY="23.56" EndX="5.00" EndY="25.22" />
+		<MountPoint Side="Bottom" StartX="4.80" StartY="25.23" EndX="6.46" EndY="26.88" />
+		<MountPoint Side="Bottom" StartX="10.25" StartY="24.29" EndX="11.91" EndY="25.95" />
+		<MountPoint Side="Bottom" StartX="14.32" StartY="20.29" EndX="15.98" EndY="21.95" />
+		<MountPoint Side="Bottom" StartX="18.18" StartY="16.28" EndX="19.83" EndY="17.94" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RunwayStartAngledWide.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>	  
+      <BlockPairName>RunwayStartSectionAngledWide</BlockPairName>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RunwayMiddleWide</SubtypeId>
+      </Id>
+      <DisplayName>Runway Middle Wide</DisplayName>
+      <Icon>Textures\Icons\RunwayStraight.dds</Icon>
+      <Public>true</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="11" y="1" z="20" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="10" y="0" z="19" />
+	  <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\RunwayMiddleWide.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5000" />
+        <Component Subtype="MetalGrid" Count="11000" />
+        <Component Subtype="SteelPlate" Count="27000" />
+      </Components>
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
+		<MountPoint Side="Top" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RailStraightWide.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>RunwayMiddleSectionWide</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>RunwayMiddleAngledWide</SubtypeId>
+      </Id>
+      <DisplayName>Runway Angled Middle Wide</DisplayName>
+      <Icon>Textures\Icons\RunwayAngled.dds</Icon>
+      <Public>true</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="22" y="1" z="38" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="21" y="0" z="37" />
+	  <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\RunwayAngledWide.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5000" />
         <Component Subtype="MetalGrid" Count="13900" />
@@ -349,45 +608,15 @@
 		<MountPoint Side="Bottom" StartX="6.01" StartY="30.00" EndX="7.04" EndY="31.03" />
       </MountPoints>
       <BuildProgressModels>
-		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayAngled_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayAngledWide_Constr1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>RunwayMiddleSectionAngled</BlockPairName>
+      <BlockPairName>RunwayMiddleSectionAngledWide</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>
-    </Definition>	
+    </Definition>		
 	
-    <Definition>
-	 <Id>	
-        <TypeId>CubeBlock</TypeId>
-		<SubtypeId>Helipad_Runway</SubtypeId>
-	 </Id>
-	<Icon>Textures\Icons\Helipad.dds</Icon>
-	<CubeSize>Large</CubeSize>
-	<BlockTopology>TriangleMesh</BlockTopology>
-	<Size x="11" y="1" z="11" />
-	<ModelOffset x="5" y="0" z="0" />
-	<Model>Models\Cubes\Helipad.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="2500" />
-        <Component Subtype="MetalGrid" Count="7500" />
-        <Component Subtype="SteelPlate" Count="13500" />
-      </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
-	<BuildProgressModels>
-		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Helipad_Constr1.mwm" />
-	</BuildProgressModels>
-	<MountPoints>
-		<MountPoint Side="Front" StartX="0.02" StartY="0.00" EndX="10.98" EndY="1.00" />
-		<MountPoint Side="Back" StartX="0.02" StartY="0.00" EndX="10.98" EndY="1.00" />
-		<MountPoint Side="Left" StartX="0.01" StartY="0.00" EndX="10.99" EndY="1.00" />
-		<MountPoint Side="Right" StartX="0.01" StartY="0.00" EndX="10.99" EndY="1.00" />
-		<MountPoint Side="Bottom" StartX="0.02" StartY="0.01" EndX="10.98" EndY="10.99" />
-		<MountPoint Side="Top" StartX="0.02" StartY="0.01" EndX="10.98" EndY="10.99" />
-	</MountPoints>
-	<BlockPairName>Helipad</BlockPairName>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
-</Definition>
+	
 	
  </CubeBlocks>
 <!-- End CubeBlocks -->
@@ -402,7 +631,7 @@
       </Position>
     </BlockPosition>
      <BlockPosition>
-      <Name>RunwayMiddleSection</Name>
+      <Name>RunwayStartSectionWide</Name>
       <Position>
         <X>1</X>
         <Y>20</Y>
