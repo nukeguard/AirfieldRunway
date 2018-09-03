@@ -85,12 +85,12 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Front" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" Default="true" />
-		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" />
-		<MountPoint Side="Left" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
-		<MountPoint Side="Right" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
-		<MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
-		<MountPoint Side="Top" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildProgressModels>
@@ -231,12 +231,12 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Front" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" Default="true" />
-		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" />
-		<MountPoint Side="Left" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
-		<MountPoint Side="Right" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
-		<MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
-		<MountPoint Side="Top" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RunwayStraight_Constr1.mwm" />
@@ -302,10 +302,10 @@
 	<MountPoints>
 		<MountPoint Side="Front" StartX="0.02" StartY="0.00" EndX="10.98" EndY="1.00" />
 		<MountPoint Side="Back" StartX="0.02" StartY="0.00" EndX="10.98" EndY="1.00" />
-		<MountPoint Side="Left" StartX="0.01" StartY="0.00" EndX="10.99" EndY="1.00" />
-		<MountPoint Side="Right" StartX="0.01" StartY="0.00" EndX="10.99" EndY="1.00" />
-		<MountPoint Side="Bottom" StartX="0.02" StartY="0.01" EndX="10.98" EndY="10.99" />
-		<MountPoint Side="Top" StartX="0.02" StartY="0.01" EndX="10.98" EndY="10.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="11" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="11" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.02" StartY="0.00" EndX="10.98" EndY="11" />
+		<MountPoint Side="Top" StartX="0.02" StartY="0.00" EndX="10.98" EndY="11" />
 	</MountPoints>
 	<BlockPairName>Helipad</BlockPairName>
       <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -334,12 +334,12 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Front" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" Default="true" />
-		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" />
-		<MountPoint Side="Left" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
-		<MountPoint Side="Right" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
-		<MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
-		<MountPoint Side="Top" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildProgressModels>
@@ -383,7 +383,7 @@
         <TypeId>TextPanel</TypeId>
         <SubtypeId>RunwayStartAngledWide</SubtypeId>
       </Id>
-      <DisplayName>Runway Angled Wide Start End </DisplayName>
+      <DisplayName>Runway Angled Wide Start End</DisplayName>
       <Icon>Textures\Icons\RunwayAngledEnd.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -399,35 +399,35 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Right" StartX="22.04" StartY="0.00" EndX="75.96" EndY="1.00" />
-		<MountPoint Side="Top" StartX="22.95" StartY="5.30" EndX="30.91" EndY="13.26" />
-		<MountPoint Side="Top" StartX="14.00" StartY="14.00" EndX="39.81" EndY="39.82" />
-		<MountPoint Side="Top" StartX="36.99" StartY="60.66" EndX="40.34" EndY="64.02" />
-		<MountPoint Side="Top" StartX="9.16" StartY="18.96" EndX="12.51" EndY="22.32" />
-		<MountPoint Side="Top" StartX="36.62" StartY="56.91" EndX="39.98" EndY="60.26" />
-		<MountPoint Side="Top" StartX="32.34" StartY="9.75" EndX="35.70" EndY="13.10" />
-		<MountPoint Side="Top" StartX="44.52" StartY="65.88" EndX="47.88" EndY="69.23" />
-		<MountPoint Side="Top" StartX="31.16" StartY="40.19" EndX="47.88" EndY="56.92" />
-		<MountPoint Side="Top" StartX="40.42" StartY="56.93" EndX="48.38" EndY="64.89" />
-		<MountPoint Side="Top" StartX="21.24" StartY="40.26" EndX="30.87" EndY="48.22" />
-		<MountPoint Side="Top" StartX="40.42" StartY="21.54" EndX="48.38" EndY="39.62" />
-		<MountPoint Side="Top" StartX="18.43" StartY="9.75" EndX="21.79" EndY="13.10" />
-		<MountPoint Side="Top" StartX="9.16" StartY="31.88" EndX="12.51" EndY="35.23" />
-		<MountPoint Side="Top" StartX="5.29" StartY="23.43" EndX="13.25" EndY="31.39" />
-		<MountPoint Side="Bottom" StartX="5.29" StartY="44.61" EndX="13.25" EndY="52.57" />
-		<MountPoint Side="Bottom" StartX="9.16" StartY="40.77" EndX="12.51" EndY="44.12" />
-		<MountPoint Side="Bottom" StartX="18.43" StartY="62.90" EndX="21.79" EndY="66.25" />
-		<MountPoint Side="Bottom" StartX="40.42" StartY="36.38" EndX="48.38" EndY="54.46" />
-		<MountPoint Side="Bottom" StartX="21.24" StartY="27.78" EndX="30.87" EndY="35.74" />
-		<MountPoint Side="Bottom" StartX="40.42" StartY="11.11" EndX="48.38" EndY="19.07" />
-		<MountPoint Side="Bottom" StartX="31.16" StartY="19.08" EndX="47.88" EndY="35.81" />
-		<MountPoint Side="Bottom" StartX="44.52" StartY="6.77" EndX="47.88" EndY="10.12" />
-		<MountPoint Side="Bottom" StartX="32.34" StartY="62.90" EndX="35.70" EndY="66.25" />
-		<MountPoint Side="Bottom" StartX="36.62" StartY="15.74" EndX="39.98" EndY="19.09" />
-		<MountPoint Side="Bottom" StartX="9.16" StartY="53.68" EndX="12.51" EndY="57.04" />
-		<MountPoint Side="Bottom" StartX="36.99" StartY="11.98" EndX="40.34" EndY="15.34" />
-		<MountPoint Side="Bottom" StartX="14.00" StartY="36.18" EndX="39.81" EndY="62.00" />
-		<MountPoint Side="Bottom" StartX="22.95" StartY="62.74" EndX="30.91" EndY="70.70" />
+		<MountPoint Side="Right" StartX="22" StartY="0" EndX="75" EndY="1" />
+		<MountPoint Side="Top" StartX="22" StartY="5" EndX="30" EndY="13" />
+		<MountPoint Side="Top" StartX="14" StartY="14" EndX="39" EndY="39" />
+		<MountPoint Side="Top" StartX="36" StartY="60" EndX="40" EndY="64" />
+		<MountPoint Side="Top" StartX="9" StartY="18" EndX="12" EndY="22" />
+		<MountPoint Side="Top" StartX="36" StartY="56" EndX="39" EndY="60" />
+		<MountPoint Side="Top" StartX="32" StartY="9" EndX="35" EndY="13" />
+		<MountPoint Side="Top" StartX="44" StartY="65" EndX="47" EndY="69" />
+		<MountPoint Side="Top" StartX="31" StartY="40" EndX="47" EndY="56" />
+		<MountPoint Side="Top" StartX="40" StartY="56" EndX="48" EndY="64" />
+		<MountPoint Side="Top" StartX="21" StartY="40" EndX="30" EndY="48" />
+		<MountPoint Side="Top" StartX="40" StartY="21" EndX="48" EndY="39" />
+		<MountPoint Side="Top" StartX="18" StartY="9" EndX="21" EndY="13" />
+		<MountPoint Side="Top" StartX="9" StartY="31" EndX="12" EndY="35" />
+		<MountPoint Side="Top" StartX="5" StartY="23" EndX="13" EndY="31" />
+		<MountPoint Side="Bottom" StartX="5" StartY="44" EndX="13" EndY="52" />
+		<MountPoint Side="Bottom" StartX="9" StartY="40" EndX="12" EndY="44" />
+		<MountPoint Side="Bottom" StartX="18" StartY="62" EndX="21" EndY="66" />
+		<MountPoint Side="Bottom" StartX="40" StartY="36" EndX="48" EndY="54" />
+		<MountPoint Side="Bottom" StartX="21" StartY="27" EndX="30" EndY="35" />
+		<MountPoint Side="Bottom" StartX="40" StartY="11" EndX="48" EndY="19" />
+		<MountPoint Side="Bottom" StartX="31" StartY="19" EndX="47" EndY="35" />
+		<MountPoint Side="Bottom" StartX="44" StartY="6" EndX="47" EndY="10" />
+		<MountPoint Side="Bottom" StartX="32" StartY="62" EndX="35" EndY="66" />
+		<MountPoint Side="Bottom" StartX="36" StartY="15" EndX="39" EndY="19" />
+		<MountPoint Side="Bottom" StartX="9" StartY="53" EndX="12" EndY="57" />
+		<MountPoint Side="Bottom" StartX="36" StartY="11" EndX="40" EndY="15" />
+		<MountPoint Side="Bottom" StartX="14" StartY="36" EndX="39" EndY="62" />
+		<MountPoint Side="Bottom" StartX="22" StartY="62" EndX="30" EndY="70" />
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildProgressModels>
@@ -474,12 +474,12 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Front" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" Default="true" />
-		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="10.99" EndY="0.99" />
-		<MountPoint Side="Left" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
-		<MountPoint Side="Right" StartX="0.01" StartY="0.01" EndX="19.99" EndY="0.99" />
-		<MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
-		<MountPoint Side="Top" StartX="0.01" StartY="0.01" EndX="10.99" EndY="19.99" />
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="1" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="1" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RailStraightWide.mwm" />
@@ -511,8 +511,8 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Left" StartX="22.07" StartY="0.01" EndX="75.93" EndY="0.99" />
-		<MountPoint Side="Right" StartX="22.04" StartY="0.01" EndX="75.94" EndY="0.99" />
+		<MountPoint Side="Left" StartX="22.07" StartY="0.00" EndX="75.93" EndY="0.99" />
+		<MountPoint Side="Right" StartX="22.04" StartY="0.00" EndX="75.94" EndY="0.99" />
 		<MountPoint Side="Top" StartX="15.03" StartY="23.17" EndX="21.94" EndY="67.97" />
 		<MountPoint Side="Top" StartX="7.01" StartY="15.17" EndX="14.99" EndY="61.03" />
 		<MountPoint Side="Top" StartX="0.11" StartY="8.19" EndX="7.03" EndY="52.99" />
@@ -529,7 +529,7 @@
 		<MountPoint Side="Top" StartX="11.12" StartY="13.20" EndX="13.04" EndY="15.12" />
 		<MountPoint Side="Top" StartX="15.11" StartY="17.24" EndX="17.02" EndY="19.16" />
 		<MountPoint Side="Top" StartX="19.02" StartY="21.21" EndX="20.94" EndY="23.13" />
-		<MountPoint Side="Top" StartX="20.01" StartY="71.94" EndX="21.93" EndY="73.86" />
+		<MountPoint Side="Top" StartX="20.00" StartY="71.94" EndX="21.93" EndY="73.86" />
 		<MountPoint Side="Top" StartX="15.97" StartY="68.04" EndX="17.89" EndY="69.96" />
 		<MountPoint Side="Top" StartX="13.09" StartY="65.02" EndX="15.01" EndY="66.93" />
 		<MountPoint Side="Top" StartX="9.12" StartY="61.12" EndX="11.04" EndY="63.04" />
@@ -539,7 +539,7 @@
 		<MountPoint Side="Top" StartX="0.07" StartY="53.03" EndX="1.10" EndY="54.06" />
 		<MountPoint Side="Top" StartX="5.95" StartY="58.88" EndX="6.98" EndY="59.91" />
 		<MountPoint Side="Top" StartX="8.03" StartY="61.06" EndX="9.07" EndY="62.09" />
-		<MountPoint Side="Top" StartX="9.99" StartY="63.07" EndX="11.02" EndY="64.10" />
+		<MountPoint Side="Top" StartX="10" StartY="63.07" EndX="11.02" EndY="64.10" />
 		<MountPoint Side="Top" StartX="19.02" StartY="20.17" EndX="20.06" EndY="21.20" />
 		<MountPoint Side="Top" StartX="17.05" StartY="18.25" EndX="18.08" EndY="19.29" />
 		<MountPoint Side="Top" StartX="15.10" StartY="16.27" EndX="16.13" EndY="17.30" />
@@ -576,7 +576,7 @@
 		<MountPoint Side="Bottom" StartX="15.10" StartY="58.70" EndX="16.13" EndY="59.73" />
 		<MountPoint Side="Bottom" StartX="17.05" StartY="56.71" EndX="18.08" EndY="57.75" />
 		<MountPoint Side="Bottom" StartX="19.02" StartY="54.80" EndX="20.06" EndY="55.83" />
-		<MountPoint Side="Bottom" StartX="9.99" StartY="11.90" EndX="11.02" EndY="12.93" />
+		<MountPoint Side="Bottom" StartX="10" StartY="11.90" EndX="11.02" EndY="12.93" />
 		<MountPoint Side="Bottom" StartX="8.03" StartY="13.91" EndX="9.07" EndY="14.94" />
 		<MountPoint Side="Bottom" StartX="5.95" StartY="16.09" EndX="6.98" EndY="17.12" />
 		<MountPoint Side="Bottom" StartX="0.07" StartY="21.94" EndX="1.10" EndY="22.97" />
@@ -586,7 +586,7 @@
 		<MountPoint Side="Bottom" StartX="9.12" StartY="12.96" EndX="11.04" EndY="14.88" />
 		<MountPoint Side="Bottom" StartX="13.09" StartY="9.07" EndX="15.01" EndY="10.98" />
 		<MountPoint Side="Bottom" StartX="15.97" StartY="6.04" EndX="17.89" EndY="7.96" />
-		<MountPoint Side="Bottom" StartX="20.01" StartY="2.14" EndX="21.93" EndY="4.06" />
+		<MountPoint Side="Bottom" StartX="20.00" StartY="2.14" EndX="21.93" EndY="4.06" />
 		<MountPoint Side="Bottom" StartX="19.02" StartY="52.87" EndX="20.94" EndY="54.79" />
 		<MountPoint Side="Bottom" StartX="15.11" StartY="56.84" EndX="17.02" EndY="58.76" />
 		<MountPoint Side="Bottom" StartX="11.12" StartY="60.88" EndX="13.04" EndY="62.80" />
