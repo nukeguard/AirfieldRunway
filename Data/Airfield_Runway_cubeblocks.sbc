@@ -388,8 +388,8 @@
       <Icon>Textures\Icons\RunwayAngledEnd.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Center x="11" y="0" z="38" />
-	<Size x="22" y="1" z="76" />
+      <Center x="0" y="0" z="1" />
+	<Size x="49" y="1" z="76" />
 	<ModelOffset x="0" y="0" z="0" />
 	<GuiVisible>false</GuiVisible>
 	<Model>Models\Cubes\RunwayStartAngledWide.mwm</Model>
@@ -400,7 +400,7 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Right" StartX="22" StartY="0" EndX="75" EndY="1" />
+		<MountPoint Side="Right" StartX="22" StartY="0" EndX="75" EndY="1" Default="true" />
 		<MountPoint Side="Top" StartX="22" StartY="5" EndX="30" EndY="13" />
 		<MountPoint Side="Top" StartX="14" StartY="14" EndX="39" EndY="39" />
 		<MountPoint Side="Top" StartX="36" StartY="60" EndX="40" EndY="64" />
