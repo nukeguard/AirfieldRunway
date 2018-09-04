@@ -284,6 +284,7 @@
         <TypeId>CubeBlock</TypeId>
 		<SubtypeId>Helipad_Runway</SubtypeId>
 	 </Id>
+	<DisplayName>Helipad</DisplayName>
 	<Icon>Textures\Icons\Helipad.dds</Icon>
 	<CubeSize>Large</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
