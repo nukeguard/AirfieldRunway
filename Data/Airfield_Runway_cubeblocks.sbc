@@ -96,7 +96,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStart_Constr1.mwm" />
       </BuildProgressModels>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <MirroringZ>Y</MirroringZ>
@@ -190,7 +190,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartAngled_Constr1.mwm" />
       </BuildProgressModels>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <MirroringZ>Y</MirroringZ>
@@ -243,7 +243,7 @@
       </BuildProgressModels>
       <BlockPairName>RunwayMiddleSection</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>
     <Definition>
@@ -274,7 +274,7 @@
       </BuildProgressModels>
       <BlockPairName>RunwayMiddleSectionAngled</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>	
 	
@@ -289,7 +289,7 @@
 	<CubeSize>Large</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
 	<Size x="11" y="1" z="11" />
-	<ModelOffset x="5" y="0" z="0" />
+	<ModelOffset x="0" y="0" z="0" />
 	<Model>Models\Cubes\Helipad.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2500" />
@@ -309,7 +309,7 @@
 		<MountPoint Side="Top" StartX="0.02" StartY="0.00" EndX="10.98" EndY="11" />
 	</MountPoints>
 	<BlockPairName>Helipad</BlockPairName>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
 </Definition>
 	
 	
@@ -346,7 +346,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartWide.mwm" />
       </BuildProgressModels>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <MirroringZ>Y</MirroringZ>
@@ -434,7 +434,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartAngledWide.mwm" />
       </BuildProgressModels>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <MirroringZ>Y</MirroringZ>
@@ -487,7 +487,7 @@
       </BuildProgressModels>
       <BlockPairName>RunwayMiddleSectionWide</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>
     <Definition>
@@ -610,7 +610,7 @@
       </BuildProgressModels>
       <BlockPairName>RunwayMiddleSectionAngledWide</BlockPairName>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>		
 	
