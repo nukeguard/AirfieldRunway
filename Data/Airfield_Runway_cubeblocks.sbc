@@ -335,12 +335,12 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" Default="true" />
-		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" />
-		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
-		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="0.99" />
-		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
-		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="22" EndY="1" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="22" EndY="1" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildProgressModels>
@@ -469,18 +469,18 @@
 	  <GuiVisible>false</GuiVisible>
       <Model>Models\Cubes\RunwayMiddleWide.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="5000" />
-        <Component Subtype="MetalGrid" Count="11000" />
+        <Component Subtype="SteelPlate" Count="10000" />
+        <Component Subtype="MetalGrid" Count="22000" />
         <Component Subtype="SteelPlate" Count="27000" />
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
-		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="1" Default="true" />
-		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="1" />
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="22" EndY="1" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="22" EndY="1" />
 		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
 		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="20" EndY="1" />
-		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
-		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RailStraightWide.mwm" />
@@ -506,8 +506,8 @@
 	  <GuiVisible>false</GuiVisible>
       <Model>Models\Cubes\RunwayAngledWide.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="5000" />
-        <Component Subtype="MetalGrid" Count="13900" />
+        <Component Subtype="SteelPlate" Count="10000" />
+        <Component Subtype="MetalGrid" Count="22900" />
         <Component Subtype="SteelPlate" Count="36500" />
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
