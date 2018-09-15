@@ -344,7 +344,7 @@
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartWide.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartWide_Constr1.mwm" />
       </BuildProgressModels>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -432,7 +432,7 @@
       </MountPoints>
       <EdgeType>Light</EdgeType>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartAngledWide.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStartAngledWide_Constr1.mwm" />
       </BuildProgressModels>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -483,7 +483,7 @@
 		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="22" EndY="20" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RailStraightWide.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayMiddleWide_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>RunwayMiddleSectionWide</BlockPairName>
       <EdgeType>Light</EdgeType>
