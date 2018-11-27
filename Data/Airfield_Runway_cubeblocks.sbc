@@ -42,8 +42,45 @@
     </Category>
   </CategoryClasses>
 <!--End BlockCategories -->
+  <Components>
+   <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>CementMixItem</SubtypeId>
+      </Id>
+      <DisplayName>Cement Mix</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\steel_plate_component.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <MaxIntegrity>1000</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10000</Health>
+    </Component>
+   </Components>
 
-<!--Begin BlueprintClasses-->
+<!--Begin Blueprint Stuff-->
+    <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CementMixItem</SubtypeId>
+      </Id>
+      <DisplayName>Cement Mix</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="CementMixItem" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+   </Blueprints>
   <BlueprintClasses>
   </BlueprintClasses>
   <BlueprintClassEntries>
@@ -58,6 +95,9 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayStartAngledWide" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="RunwayMiddleAngledWide" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="Helipad" />
+	
+  <!-- Components -->
+	<Entry Class="Components" BlueprintSubtypeId="CementMixItem" />
 	
   </BlueprintClassEntries>
 <!--End BlueprintClasses-->
@@ -80,10 +120,10 @@
       <Model>Models\Cubes\RunwayStart.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5000" />
-        <Component Subtype="MetalGrid" Count="11000" />
+        <Component Subtype="CementMixItem" Count="11000" />
         <Component Subtype="SteelPlate" Count="27000" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
       <MountPoints>
 		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" Default="true" />
 		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" />
@@ -145,10 +185,10 @@
 	<Model>Models\Cubes\RunwayStartAngled.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5000" />
-        <Component Subtype="MetalGrid" Count="11750" />
+        <Component Subtype="CementMixItem" Count="11750" />
         <Component Subtype="SteelPlate" Count="30250" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
       <MountPoints>
 		<MountPoint Side="Right" StartX="14" StartY="0.00" EndX="30" EndY="1" Default="true" />
 		<MountPoint Side="Top" StartX="14" StartY="14" EndX="22" EndY="21" />
@@ -226,10 +266,10 @@
       <Model>Models\Cubes\RunwayMiddle.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5000" />
-        <Component Subtype="MetalGrid" Count="11000" />
+        <Component Subtype="CementMixItem" Count="11000" />
         <Component Subtype="SteelPlate" Count="27000" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
       <MountPoints>
 		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" Default="true" />
 		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="11" EndY="0.99" />
@@ -263,10 +303,10 @@
       <Model>Models\Cubes\RunwayAngled.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5000" />
-        <Component Subtype="MetalGrid" Count="13900" />
+        <Component Subtype="CementMixItem" Count="13900" />
         <Component Subtype="SteelPlate" Count="36500" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
       <MountPoints>
       </MountPoints>
       <BuildProgressModels>
@@ -293,10 +333,10 @@
 	<Model>Models\Cubes\Helipad.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="2500" />
-        <Component Subtype="MetalGrid" Count="7500" />
+        <Component Subtype="CementMixItem" Count="7500" />
         <Component Subtype="SteelPlate" Count="13500" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
 	<BuildProgressModels>
 		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Helipad_Constr1.mwm" />
 	</BuildProgressModels>
@@ -330,10 +370,10 @@
       <Model>Models\Cubes\RunwayStartWide.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5000" />
-        <Component Subtype="MetalGrid" Count="11000" />
+        <Component Subtype="CementMixItem" Count="11000" />
         <Component Subtype="SteelPlate" Count="27000" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
       <MountPoints>
 		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="22" EndY="1" Default="true" />
 		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="22" EndY="1" />
@@ -395,10 +435,10 @@
 	<Model>Models\Cubes\RunwayStartAngledWide.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5000" />
-        <Component Subtype="MetalGrid" Count="11750" />
+        <Component Subtype="CementMixItem" Count="11750" />
         <Component Subtype="SteelPlate" Count="30250" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
       <MountPoints>
 		<MountPoint Side="Right" StartX="22" StartY="0" EndX="75" EndY="1" Default="true" />
 		<MountPoint Side="Top" StartX="22" StartY="5" EndX="30" EndY="13" />
@@ -470,10 +510,10 @@
       <Model>Models\Cubes\RunwayMiddleWide.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="10000" />
-        <Component Subtype="MetalGrid" Count="22000" />
+        <Component Subtype="CementMixItem" Count="22000" />
         <Component Subtype="SteelPlate" Count="27000" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
       <MountPoints>
 		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="22" EndY="1" Default="true" />
 		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="22" EndY="1" />
@@ -507,10 +547,10 @@
       <Model>Models\Cubes\RunwayAngledWide.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="10000" />
-        <Component Subtype="MetalGrid" Count="22900" />
+        <Component Subtype="CementMixItem" Count="22900" />
         <Component Subtype="SteelPlate" Count="36500" />
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
       <MountPoints>
 		<MountPoint Side="Left" StartX="22.07" StartY="0.00" EndX="75.93" EndY="0.99" />
 		<MountPoint Side="Right" StartX="22.04" StartY="0.00" EndX="75.94" EndY="0.99" />
