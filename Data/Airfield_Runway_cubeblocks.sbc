@@ -49,7 +49,7 @@
         <SubtypeId>CementMixItem</SubtypeId>
       </Id>
       <DisplayName>Cement Mix</DisplayName>
-      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Icon>Textures\GUI\Icons\CementMix.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -57,7 +57,7 @@
       </Size>
       <Mass>200</Mass>
       <Volume>3</Volume>
-      <Model>Models\Components\steel_plate_component.mwm</Model>
+      <Model>Models\Ingots\stone_ingot.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <MaxIntegrity>1000</MaxIntegrity>
       <DropProbability>0.9</DropProbability>
@@ -73,9 +73,9 @@
         <SubtypeId>CementMixItem</SubtypeId>
       </Id>
       <DisplayName>Cement Mix</DisplayName>
-      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Icon>Textures\GUI\Icons\CementMix.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="CementMixItem" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
