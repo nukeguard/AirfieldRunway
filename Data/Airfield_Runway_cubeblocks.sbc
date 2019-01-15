@@ -167,6 +167,8 @@
           <SubtypeId>RunwayMiddleAngled</SubtypeId>
         </BlockVariant>
 	   </BlockVariants>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
@@ -246,6 +248,8 @@
       </DestroyEffectOffset>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>5</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
     </Definition>
     <Definition>
       <Id>
@@ -282,6 +286,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
     </Definition>
     <Definition>
       <Id>
@@ -312,6 +318,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
     </Definition>	
 	
 	<!-- Helipad square -->
@@ -345,6 +353,8 @@
 	</MountPoints>
 	<BlockPairName>Helipad</BlockPairName>
       <BuildTimeSeconds>30</BuildTimeSeconds>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
 </Definition>
 	
 	
@@ -412,6 +422,8 @@
           <SubtypeId>RunwayMiddleAngledWide</SubtypeId>
         </BlockVariant>
 	   </BlockVariants>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
@@ -485,6 +497,8 @@
       </DestroyEffectOffset>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>5</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
     </Definition>
     <Definition>
       <Id>
@@ -521,6 +535,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
     </Definition>
     <Definition>
       <Id>
@@ -644,6 +660,8 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
     </Definition>		
 	
 	
