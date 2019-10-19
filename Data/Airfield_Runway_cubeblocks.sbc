@@ -10,7 +10,9 @@
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>LargeBlocks</Name>
       <ItemIds>
+        <string>NarrowRunwayStart</string>
         <string>RunwayStart</string>
+        <string>NarrowRunwayMiddle</string>
         <string>RunwayMiddle</string>
         <string>RunwayStartAngled</string>
         <string>RunwayMiddleAngled</string>
@@ -29,8 +31,9 @@
       <DisplayName>Ntech</DisplayName>
       <Name>Ntech</Name>
       <ItemIds>
+        <string>NarrowRunwayStart</string>
         <string>RunwayStart</string>
-        <string>RunwayMiddle</string>
+        <string>NarrowRunwayMiddle</string>
         <string>RunwayStartAngled</string>
         <string>RunwayMiddleAngled</string>
         <string>RunwayStartWide</string>
@@ -164,11 +167,111 @@
         </BlockVariant>
         <BlockVariant>
           <TypeId>CubeBlock</TypeId>
+          <SubtypeId>NarrowRunwayMiddle</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>TextPanel</TypeId>
+          <SubtypeId>NarrowRunwayStart</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CubeBlock</TypeId>
           <SubtypeId>RunwayMiddleAngled</SubtypeId>
         </BlockVariant>
 	   </BlockVariants>
 	   <UsesDeformation>false</UsesDeformation>
        <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+	
+	<!-- Narrow sections -->
+    <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+      <Id>
+        <TypeId>TextPanel</TypeId>
+        <SubtypeId>NarrowRunwayStart</SubtypeId>
+      </Id>
+      <DisplayName>Narrow Runway Start End</DisplayName>
+      <Icon>Textures\Icons\RunwayEnd.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="4" y="0" z="6" />
+      <Model>Models\Cubes\NarrowRunwayStart.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="5000" />
+        <Component Subtype="SteelPlate" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="7" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="7" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5" EndY="7" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5" EndY="7" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\NarrowRunwayStart_Constr1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>	  
+      <BlockPairName>NarrowRunwayStartSection</BlockPairName>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <TextureResolution>512</TextureResolution>
+      <TextureAspectRadio>1</TextureAspectRadio>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>5</PCU>
+	  <GuiVisible>false</GuiVisible>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>NarrowRunwayMiddle</SubtypeId>
+      </Id>
+      <DisplayName>Narrow Runway Middle</DisplayName>
+      <Icon>Textures\Icons\RunwayStraight.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="4" y="0" z="6" />
+      <Model>Models\Cubes\NarrowRunwayMiddle.mwm</Model>
+      <Components>
+        <Component Subtype="CementMixItem" Count="5000" />
+        <Component Subtype="SteelPlate" Count="500" />
+      </Components>
+      <CriticalComponent Subtype="CementMixItem" Index="0" />
+      <MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="5" EndY="0.99" Default="true" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="5" EndY="0.99" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="7" EndY="0.99" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="7" EndY="0.99" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5" EndY="7" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="5" EndY="7" />
+      </MountPoints>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\NarrowRunwayMiddle_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>NarrowRunwayMiddleSection</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PCU>1</PCU>
+	   <UsesDeformation>false</UsesDeformation>
+       <DeformationRatio>0.0</DeformationRatio>
+	  <GuiVisible>false</GuiVisible>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
