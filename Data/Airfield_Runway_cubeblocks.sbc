@@ -383,7 +383,7 @@
 		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="11" EndY="20" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayStraight_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\RunwayMiddle_Constr1.mwm" />
       </BuildProgressModels>
       <BlockPairName>RunwayMiddleSection</BlockPairName>
       <EdgeType>Light</EdgeType>
