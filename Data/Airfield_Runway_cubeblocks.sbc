@@ -58,7 +58,7 @@
         <Y>0.5</Y>
         <Z>0.01</Z>
       </Size>
-      <Mass>200</Mass>
+      <Mass>10</Mass>
       <Volume>3</Volume>
       <Model>Models\Ingots\stone_ingot.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
